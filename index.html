@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Portfolio</title>
@@ -9,16 +10,17 @@
     font-family: Arial, sans-serif;
     margin: 10px;
     padding: 10px;
-    border: 15px snow solid;
-    background-color:#0C0C0C;
-    color: #fff;
+    border: 15px rgb(8, 8, 8) solid;
+    background-image: url("bg1.jpg");
+    background-size: cover;
+    color: #000000;
   }
 
   header {
    
-    background-color: #0C0C0C;
-    border: 15px snow solid;
-    color: #fff;
+    
+    border: 15px rgb(0, 0, 0) solid;
+    color: #000000;
     padding: 20px 0;
     text-align: center;
   }
@@ -35,12 +37,12 @@
   }
 
   nav ul li a {
-    color: #fff;
+    color: #000000;
     text-decoration: underline;
   }
 
   .container {
-    border: 10px  solid snow;
+    border: 10px  solid rgb(4, 4, 4);
     margin: auto;
     overflow: hidden;
     padding: 20px;
@@ -48,7 +50,7 @@
   }
 
   .project {
-   border: 10px solid snow;
+   border: 10px solid rgb(0, 0, 0);
     margin: auto;
     overflow: hidden;
     padding: 20px;
@@ -59,17 +61,17 @@
   }
   #dev{
     border-radius: 25%;
-    border: 10px solid snow;
+    border: 10px solid rgb(0, 0, 0);
   }
   #me{
-    text-decoration: underline solid snow;
+    text-decoration: underline solid rgb(0, 0, 0);
     font-size: x-large;
   }
   .href p{
     font-size: large;
   }
   .href{
-    border: snow solid 10px;
+    border: rgb(0, 0, 0) solid 10px;
   }
   .p1{
     font-size:larger;
@@ -78,6 +80,10 @@
     font-size: large;
     border: #0C0C0C;
   }
+  .project p{
+    font-size: x-large;
+    font-weight: 700;
+  }
   
 </style>
 </head>
@@ -85,12 +91,12 @@
 
 <header>
   
-  <img src="devaiah.jpg" alt="shishik" id="dev" height="250" width="200"><br>
+  <img src="SD.jpg" alt="shishik" id="dev" height="300" width="250"><br>
   <h1 id="me">SHISHIK DEVAIAH SP</h1>
   <nav>
       <a href="#portfolio"><button class="B1"><STRONG>PORTFOLIO</STRONG></button></a>
       <a href="#contact"><button class="B1"><STRONG>CONTACT</STRONG></button></a>
-      <a href="shishikresume.pdf"><button class="B1"><strong>RESUME</strong></button></a>
+      <a href="Shishik devaiah S P - Resume (2).pdf"><button class="B1"><strong>RESUME</strong></button></a>
   </nav>
 </header>
 
@@ -99,38 +105,42 @@
     <h2>PORTFOLIO:</h2>
     <div class="project">
       <h3><u>ABOUT ME:</u></h3>
-      <p class="p1">Hi There ! <br> First of all thank you for giving me this opportunity to introduce myself.<br>IM SHISHIK DEVAIAH SP <br> I am from Maymudi village kodagu.I have completed my bachelor degree from Cauvery Degree College Gonikoppal also known as CCG.  I belong to a nuclear family. My strength are I am self motivated person and I have strong communication skill and also I spread my strength to all the people around me . My short term goal is to get a job in a reputed Company and long term goal is to achieve a good position like yours. Where I can build my career and help the organization too. My hobbies are:- leraning about new technology, listening to music,motivational quotes and speeches,and I also spend time in social media ,practice my coding skills too,Lastly, I am a quick learner and believe in learning from my past mistakes and experiences.<br> I am a fullstack developer who know's to build a mobile and also web-application using MERN-stack and I have knowledge about Html,css,python,php,react.js</p>
-      <p align="end">Thats all about me.<br>Thank You</p>
+      <p class="p1"><b>Hi There ! <br> First of all thank you for giving me this opportunity to introduce myself.<br>IM SHISHIK DEVAIAH SP <br> I am from Maymudi village kodagu.I have completed my bachelor degree from Cauvery Degree College Gonikoppal also known as CCG.  I belong to a nuclear family. My strength are I am self motivated person and I have strong communication skill and also I spread my strength to all the people around me . My short term goal is to get a job in a reputed Company and long term goal is to achieve a good position like yours. Where I can build my career and help the organization too. My hobbies are:- leraning about new technology, listening to music,motivational quotes and speeches,and I also spend time in social media ,practice my coding skills too,Lastly, I am a quick learner and believe in learning from my past mistakes and experiences.<br> I am a fullstack developer who know's to build a mobile and also web-application using MERN-stack and I have knowledge about Html,css,python,php,react.js</p></b>
+      <p align="end"><b>Thats all about me.<br>Thank You</b></p>
       <a href="certificates.html"><button class="B1"><STRONG>CERTIFICATES</STRONG></button></a>
       <a href=""><button class="B1"><STRONG>MY PROJECTS</STRONG></button></a>
+      <a href="mydoc.html"><button class="B1"><STRONG>MY DOCUMENT</STRONG></button></a>
+      
     </div>
     <div class="project">
-      <h3><u>EDUCATION QUALIFICATION:</u></h3>
+      <h3><u><strong>EDUCATION QUALIFICATION:</strong></u></h3>
       <ul>
-        <li><h4>BCA-Bachelor of Compuer Application</h4>
+        <li><h2>BCA-Bachelor of Compuer Application</h2>
         <p>Mangaluru University<br>
         Cauvery Degree College Gonikoppal<br>
-      CGPA:9.02</p></li>
-      <li><h4>PUC-Commerece</h4>
+      CGPA:9.02<br>
+      <a href=""><button class="B1"><STRONG>BCA-MARKS-CARD</STRONG></button></a></p></li>
+      <li><h2>PUC-Commerece</h2>
       <p>Lions Composite PU college, Kalathmad, kodagu<br>
-      percentage:71%</p></li>
-      <li><h4>SSLC</h4>
+      percentage:71%<br>
+      <button class="B1" ><STRONG>PUC-MARKS-CARD</STRONG></button></a></p></li>
+      <li><h2>SSLC</h2>
       <p>Lions High School Kalathmad, kodagu<br>
-      percentage:73.12%</p></li>
-     
+      percentage:73.12%<br>
+      <a href=""><button class="B1"><STRONG>SSLC-MARKS-CARD</STRONG></button></a></p></li>
       </ul>
     </div>
   
   </section>
 <div class="href">
   <section id="contact">
-    <h2><u>YOU CAN CONTACT ME AND ALSO FOLOW ME ON:</u></h2>
-    <p>📞: <strong style="color: rgb(0, 255, 64);">9535625163</strong></p>
-    <P>ADDRESS: <strong style="color: rgb(0, 255, 64);">Rudrabeedu Village Mayamudi Post</strong></P>
-    <p>EMAIL: <strong style="color: rgb(0, 255, 64);">shishikdevaiah202@gmail.com</strong></p>
-    <p>INSTAGRAM:  <a href="https://www.instagram.com/shishik_devaiah?igsh=ZWl6N2I2a2Z3YWd4" style="color: rgb(0, 255, 64);"><strong>shishik_devaiah</strong></p></a>
-    <p>LINKED IN:  <a href="https://www.linkedin.com/in/shishik-devaiah-s-p-213605293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="color: rgb(0, 255, 64);"><strong>Shishik Devaiah SP</strong></a></p>
-    <p>GITHUB:     <a href="https://github.com/shishik-devaiah?tab=packages" style="color: rgb(0, 255, 64);"><strong>SHISHIK DEVAIAH SP</strong></a></p>
+    <h1><u><strong>YOU CAN CONTACT ME AND ALSO FOLOW ME ON:</u></strong></h1>
+    <p>📞: <strong style="color: rgb(255, 0, 0);">9535625163</strong></p>
+    <P><strong>ADDRESS:</strong> <strong style="color: rgb(255, 0, 0);">Rudrabeedu Village Mayamudi Post</strong></P>
+    <p><strong>EMAIL:</strong> <strong style="color: rgb(255, 0, 0);">shishikdevaiah202@gmail.com</strong></p>
+    <p><strong>INSTAGRAM: </strong> <a href="https://www.instagram.com/shishik_devaiah?igsh=ZWl6N2I2a2Z3YWd4" style="color: rgb(255, 0, 0);"><strong>shishik_devaiah</strong></p></a>
+    <p><strong>LINKED IN:</strong>  <a href="https://www.linkedin.com/in/shishik-devaiah-s-p-213605293?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="color: rgb(255, 0, 0);"><strong>Shishik Devaiah SP</strong></a></p>
+    <p><strong>GITHUB:</strong>     <a href="https://github.com/shishik-devaiah?tab=packages" style="color: rgb(255, 0, 0);"><strong>SHISHIK DEVAIAH SP</strong></a></p>
 </div>
 </section>
 </body>
